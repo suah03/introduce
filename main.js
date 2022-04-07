@@ -5,23 +5,23 @@ window.onload = function () {
 
     };
     b2.onclick = function() {
-        name = prompt("전화번호를 입력하세요.");
-        document.getElementsByClassName("number")[0].innerHTML = "number : " + Number;
+        Number = prompt("전화번호를 입력하세요.");
+        document.getElementsByClassName("number")[0].innerHTML = "number : " +  Number;
 
     };
     b3.onclick = function() {
-        name = prompt("이름을 입력하세요.");
-        document.getElementsByClassName("age")[0].innerHTML = "age : " + name;
+        Age = prompt("나이를 입력하세요.");
+        document.getElementsByClassName("age")[0].innerHTML = "age : " + Age;
 
     };
     b4.onclick = function() {
-        name = prompt("이름을 입력하세요.");
-        document.getElementsByClassName("name")[0].innerHTML = "name : " + name;
+        Addr = prompt("주소를 입력하세요.");
+        document.getElementsByClassName("addr")[0].innerHTML = "addr : " + Addr;
 
     };
     b5.onclick = function() {
-        name = prompt("이름을 입력하세요.");
-        document.getElementsByClassName("name")[0].innerHTML = "name : " + name;
+       Mbti = prompt("mbti를 입력하세요.");
+        document.getElementsByClassName("mbti")[0].innerHTML = "mbti : " + Mbti;
 
     };
     
